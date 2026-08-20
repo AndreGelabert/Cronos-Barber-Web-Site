@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Cronos Barber — Landing (Next.js)
 
-# Run and deploy your AI Studio app
+Landing page creada con Next.js para Cronos Barber destinada a presentar los servicios, precios y contacto de la barbería de manera clara y atractiva. Sitio desplegado en Vercel.
 
-This contains everything you need to run your app locally.
+Demo: https://cronos-barber-web-site.vercel.app
 
-View your app in AI Studio: https://ai.studio/apps/71e9d4a0-7437-431d-bca9-d1b631f72321
+Tecnologías
+- Next.js
+- React
+- Vercel (deployment)
 
-## Run Locally
+Rápido inicio
+1. Clona el repo:
+   git clone https://github.com/AndreGelabert/Cronos-Barber-Web-Site.git
+2. Instala dependencias:
+   npm install
+3. Levanta en desarrollo:
+   npm run dev
+4. Construir para producción:
+   npm run build
+   npm start
 
-**Prerequisites:**  Node.js
+Despliegue
+- Deploy automático en Vercel (conexión al repo). No se requiere configuración adicional para pushes a la rama usada por Vercel.
 
+Contribuciones
+- Abrir PR con cambios pequeños; usa commits claros.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Licencia
+- MIT (o la que prefieras)
+
+Contacto
+- Andre Gelabert
